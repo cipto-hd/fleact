@@ -10,7 +10,7 @@
   "scripts": {
     "build": [
       "composer install --no-dev -o",
-      "php -r \"if (!is_dir('node_modules')) `npm i`;\"",
+      "php -r \"if (!is_dir('node_modules')) system('pnpm i');\"",
       "npm run build",
       "composer archive"
     ]
