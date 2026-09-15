@@ -44,6 +44,7 @@
     ]
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "archive-dir": "build"
   }
 }
